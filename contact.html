@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Almaty City Page</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<p class="logo">Almaty City</p>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html" class="active">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<h1>Places to Visit and Feedback</h1>
+
+<table>
+<caption>Popular Places in Almaty</caption>
+<thead>
+<tr>
+<th scope="col">Place</th>
+<th scope="col">Type</th>
+<th scope="col">Opening hours</th>
+<th scope="col">Entry</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Panfilov Park</td>
+<td>Park</td>
+<td>All day</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>Kok-Tobe Hill</td>
+<td>Viewpoint</td>
+<td>10:00 - 22:00</td>
+<td>Paid</td>
+</tr>
+<tr>
+<td>Medeu</td>
+<td>Ice rink</td>
+<td>10:00 - 21:00</td>
+<td>Paid</td>
+</tr>
+<tr>
+<td>Green Bazaar</td>
+<td>Market</td>
+<td>08:00 - 19:00</td>
+<td>Free</td>
+</tr>
+<tr>
+<td>Central Mosque</td>
+<td>Religious site</td>
+<td>06:00 - 20:00</td>
+<td>Free</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="4">Hours can change on public holidays</td>
+</tr>
+</tfoot>
+</table>
+
+<h2>Feedback form</h2>
+<form>
+<fieldset>
+<legend>Send your feedback about Almaty</legend>
+
+<label for="name">Name</label>
+<input type="text" id="name" name="name" placeholder="Your name" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email" required>
+
+<label for="age">Age</label>
+<input type="number" id="age" name="age" min="10" max="100">
+
+<label for="visitdate">Date of your visit</label>
+<input type="date" id="visitdate" name="visitdate">
+
+<label for="favcolor">Pick a color for the page theme</label>
+<input type="color" id="favcolor" name="favcolor">
+
+<label for="msg">Your message</label>
+<textarea id="msg" name="msg" placeholder="Write your feedback here"></textarea>
+
+<p>Favorite place in Almaty:</p>
+<label><input type="radio" name="place" value="park"> Panfilov Park</label>
+<label><input type="radio" name="place" value="koktobe"> Kok-Tobe</label>
+<label><input type="radio" name="place" value="medeu"> Medeu</label>
+
+<label><input type="checkbox" name="newsletter"> Send me travel tips about Almaty</label>
+
+<button type="submit">Send</button>
+</fieldset>
+</form>
+</main>
+
+<footer>
+<p>&copy; 2026 Almaty City Page</p>
+</footer>
+</body>
+</html>
