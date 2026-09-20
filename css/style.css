@@ -1,0 +1,119 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+color: #222222;
+}
+
+header {
+background-color: navy;
+color: white;
+padding: 15px;
+}
+
+.logo {
+font-size: 1.5rem;
+font-weight: bold;
+margin: 0 0 10px 0;
+}
+
+nav ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+nav li {
+display: inline;
+margin-right: 15px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+padding: 8px 12px;
+}
+
+nav a:hover {
+background-color: rgb(70, 70, 150);
+padding: 8px 16px;
+}
+
+nav a.active {
+background-color: hsl(210, 60%, 40%);
+}
+
+main {
+padding: 20px;
+width: 90%;
+margin: 0 auto;
+}
+
+h1 {
+color: darkred;
+text-align: center;
+}
+
+h2 {
+color: #333333;
+font-weight: bold;
+}
+
+img {
+width: 300px;
+border: 2px solid gray;
+margin: 10px;
+}
+
+footer {
+background-color: #222222;
+color: white;
+text-align: center;
+padding: 10px;
+height: 8vh;
+}
+
+table {
+width: 100%;
+margin-top: 20px;
+}
+
+th, td {
+border: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+
+thead {
+background-color: lightgray;
+}
+
+fieldset {
+border: 2px solid gray;
+padding: 15px;
+margin-top: 20px;
+}
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+input:focus, textarea:focus {
+outline: 3px solid rgb(0, 120, 215);
+background-color: #eef;
+}
+
+button {
+margin-top: 15px;
+padding: 10px 20px;
+background-color: green;
+color: white;
+border: none;
+}
+
+blockquote {
+border-left: 3px solid gray;
+padding-left: 15px;
+font-style: italic;
+}
